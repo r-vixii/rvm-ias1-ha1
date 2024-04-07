@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authorization Demo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <button id="authorizationButton">Open Website (Without Authorization)</button>
+    <button id="authorizedButton">Open Website (With Authorization)</button>
+    <div id="content"></div>
+
+    <!-- Dialog container -->
+    <div class="dialog-container">
+        <div class="dialog">
+            <h2>Enter Password</h2>
+            <form id="passwordForm">
+                <input type="password" id="password" placeholder="Enter your password">
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
